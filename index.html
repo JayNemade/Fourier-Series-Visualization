@@ -1,0 +1,100 @@
+<html>
+  <head>
+  	<title>Fourier Series v-2.0</title>
+    <script src= "p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="p5.dom.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+  	<div>
+
+      <div class="container">
+
+    		<div class="div1" id="explanation">
+          <h1 class="heading">Fourier Series</h1>
+          <h1>Introduction</h1>
+          <p>
+            This project is on the demonstration of fourier series 
+            by visulizing the finite-infinite sum of sines and cosines.
+            The concept behind the fourier series was given by a brilliant
+            mathematician by the name of, Joseph Fourier. The idea of the original
+            paper was that any arbitrary periodic function could be represented by
+            a specific sum of sines and cosines.<br>
+          </p>
+          <p>
+            The theme behind this webpage is 
+            that even a layman should understand the key concepts behind the fourier series so 
+            the language would be simplistic and using <i>'complex'</i> mathematical concepts 
+            will be avoided. If you are already familiar with 
+            fourier series, you can skip to <a href="#instructions" class="intern-links">Instructions for use</a>.
+          </p>
+          <h1>Basics of trignometry</h1>
+          <p>
+            Before understanding the fourier series we must know what is
+            a sin() and a cos() function.
+          </p>
+          <h2>Sine wave/function</h2>
+          <p>
+            On a Mathematical basis the sine of a function is it's opposite side
+            divided by it's hypotenuse. But for the purpose of this project,
+            we would take the physics perspective of a sine ie; the graph of an
+            osscilating body. Which is shown below or, you can view an animated version by sliding the <a href="#canvas" class="intern-links">slider for n to 1.</a> <br>
+          </p>
+          <img src="Sine wave.png" height="200px"><br>
+          <h2>Cosine wave/function</h2>
+          <p>
+            On a Mathematical basis the cosine of a function is it's Adjacent side
+            divided by it's hypotenuse.There is nothing much to it different than Sine wave.
+            It's just phase shifted a 180 degrees.
+          </p>
+          <h2>Relationship between the osscilation and the sine wave produced by it</h2>
+          <p>
+            The Sine wave has some properties which we should be aware of. The sine wave has a
+            wavelength <b>&lambda;</b> and a Amplitude <b>A</b>.<br>Wavelength <b>&lambda;</b> is
+            defined as the time required for the function to complete one full osscilation.
+            Thus <b>&lambda;</b> is inversly proportional to the speed of the osscilation or the <a href="#canvas" class="intern-links">time period</a>.<br>
+            The Amplitude <b>A</b> is defined as the height of the wave. Therefore <b>A</b> is directly proportional to the <a href="#canvas" class="intern-links">radius</a>.
+            <br>.
+            <img src="Properties of Sine wave.png" height="200px"><br>
+          </p>
+
+          <h1>Concept behind the Fourier series</h1>
+          <p>
+            A Fourier series is an expansion of a <b>periodic function</b> <i><b>f(x)</b></i> in
+             terms of an infinite sum of sines and cosines. Fourier series make use of the 
+            <b>orthogonality relationships</b> of the sine and cosine functions. The computation
+             and study of Fourier series is known as <b>harmonic analysis</b>. 
+          </p>
+          <h1 id="instructions">Where, When and How to use this visualization</h1>
+          <h2>Where is the use of this project</h2>
+          <p>
+            The sole use of this project is in academics. Professors can use this visualization
+            if they are teaching harmonic analysis. Professors can use this visualization to
+            a more intuitive way to approach fourier series. It also gives a intresting touch to 
+            the so considered <i>'boring topics'</i> like fourier series.
+          </p>
+          <h2>How to use the visualization</h2>
+          <p>
+            <li>The sliders for the value of time period, radius, number of iterations are given
+            just below the animation on the left.</li>
+            <li>As you change the values, the animation is morphed live and you can observe the
+             effect of change in the different parameters on the fourier sum which is visualized 
+             in the animation.</li>
+            <li>The functions can be selected by the selection menu on 
+            the right of the sliders.</li>
+            <li>All of the sliders and selection menus are labeled for convenience.</li>
+          </p>
+    		</div>
+
+       <!--  <div class="div2" id="citation">
+          <h1 class="citation">Citations</h1>
+        </div> -->
+
+      </div>
+
+  		<div id='canvas'></div>
+
+  	</div>
+  </body>
+</html>
