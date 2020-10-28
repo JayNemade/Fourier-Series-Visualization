@@ -26,7 +26,7 @@
             The theme behind this webpage is 
             that even a layman should understand the key concepts behind the fourier series so 
             the language would be simplistic and using <i>'complex'</i> mathematical concepts 
-            will be avoided. If you are already familiar with 
+            will be avoided. If you want to know more about the topic citations will be provided. If you are already familiar with 
             fourier series, you can skip to <a href="#instructions" class="intern-links">Instructions for use</a>.
           </p>
           <h1>Basics of trignometry</h1>
@@ -36,22 +36,26 @@
           </p>
           <h2>Sine wave/function</h2>
           <p>
-            On a Mathematical basis the sine of a function is it's opposite side
-            divided by it's hypotenuse. But for the purpose of this project,
-            we would take the physics perspective of a sine ie; the graph of an
-            osscilating body. Which is shown below or, you can view an animated version by sliding the <a href="#canvas" class="intern-links">slider for n to 1.</a> <br>
+            Mathematically the sine of an angle in a right angled triangle is the
+            ratio of it's opposite side and it's hypotenuse. Thus sine is a
+            function of a variable angle. In this project we look at the graph of
+            this function as the position of a point on a moving circle. This is
+            shown below or, you can view an animated
+            version by sliding the <a href="#canvas" class="intern-links">slider
+            for n to 1.</a> <br>
           </p>
           <img src="Sine wave.png" height="200px"><br>
           <h2>Cosine wave/function</h2>
           <p>
-            On a Mathematical basis the cosine of a function is it's Adjacent side
-            divided by it's hypotenuse.There is nothing much to it different than Sine wave.
-            It's just phase shifted a 180 degrees.
+            Like wise the cosine function is obtained from the ratio of the
+            Adjacent side and the hypotenuse. It is the sine function itself but
+            with a phase shifted of 90 degrees.
           </p>
+          <img src="Cosine wave.png" height="200px"><br>
           <h2>Relationship between the osscilation and the sine wave produced by it</h2>
           <p>
             The Sine wave has some properties which we should be aware of. The sine wave has a
-            wavelength <b>&lambda;</b> and a Amplitude <b>A</b>.<br>Wavelength <b>&lambda;</b> is
+            wavelength <b>&lambda;</b> and an Amplitude <b>A</b>.<br>Wavelength <b>&lambda;</b> is
             defined as the time required for the function to complete one full osscilation.
             Thus <b>&lambda;</b> is inversly proportional to the speed of the osscilation or the <a href="#canvas" class="intern-links">time period</a>.<br>
             The Amplitude <b>A</b> is defined as the height of the wave. Therefore <b>A</b> is directly proportional to the <a href="#canvas" class="intern-links">radius</a>.
@@ -61,10 +65,15 @@
 
           <h1>Concept behind the Fourier series</h1>
           <p>
-            A Fourier series is an expansion of a <b>periodic function</b> <i><b>f(x)</b></i> in
-             terms of an infinite sum of sines and cosines. Fourier series make use of the 
-            <b>orthogonality relationships</b> of the sine and cosine functions. The computation
-             and study of Fourier series is known as <b>harmonic analysis</b>. 
+            A Fourier series<a href="https://mathworld.wolfram.com/FourierSeries.html" class="cit-links"><sup>
+            [1]</sup></a> is an expansion of a <b>periodic function</b><a href="https://mathworld.wolfram.com/PeriodicFunction.html" class="cit-links"><sup>
+            [2]</sup></a> <i><b>f
+            (x)</b></i> in terms of an infinite sum of sines and cosines. Fourier series make use of the orthogonality<a href="https://mathworld.wolfram.com/OrthogonalFunctions.html" class="cit-links"><sup>
+            [3]</sup></a> relationships of the sine and
+            cosine functions, i.e., their graphs at any point intersect at right
+            angle. The
+            computation and study of Fourier series is known as <b>harmonic
+            analysis</b>.
           </p>
           <h1 id="instructions">Where, When and How to use this visualization</h1>
           <h2>Where is the use of this project</h2>
@@ -86,12 +95,7 @@
             <li>All of the sliders and selection menus are labeled for convenience.</li>
           </p>
     		</div>
-
-       <!--  <div class="div2" id="citation">
-          <h1 class="citation">Citations</h1>
-        </div> -->
-
-      </div>
+        <h1><u>Use the sliders below to choose different approximations</u></h1>
 
   		<div id='canvas'></div>
 

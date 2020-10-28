@@ -9,7 +9,7 @@ let color2;
 let slider_radius;
 var changer;
 var changerTheme;
-let height = 1000;
+let height = 1070;
 
 function setup() {
   var c1 = createCanvas(1000, 600);

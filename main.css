@@ -29,3 +29,11 @@
 	color: #ff0055;
 	text-decoration: none;
 }
+.cit-links{
+	color: #0000D6;
+	text-decoration: none;
+}
+.cit-links:hover{
+	color: #0000FF;
+	text-decoration: none;
+}
